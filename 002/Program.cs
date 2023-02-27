@@ -17,4 +17,4 @@ Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число M: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Сумма чисел от M до N: {Akkerman(m, n)}");
+Console.WriteLine($"Функция Аккермана({m},{n}) = {Akkerman(m, n)}");
