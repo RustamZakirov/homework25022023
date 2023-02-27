@@ -12,7 +12,7 @@ int Sum(int m, int n, int count)
 Console.Clear();
 Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число M: ");
+Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int count = 0;
 Console.WriteLine($"Сумма чисел от M до N: {Sum(m, n, count)}");
