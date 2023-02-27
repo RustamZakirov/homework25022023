@@ -15,6 +15,6 @@ int Akkerman(int m, int n)
 Console.Clear();
 Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число M: ");
+Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Функция Аккермана({m},{n}) = {Akkerman(m, n)}");
